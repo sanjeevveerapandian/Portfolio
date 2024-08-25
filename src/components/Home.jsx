@@ -7,7 +7,7 @@ const Home = () => {
       className="relative h-[50vh] bg-background text-secondary dark:bg-gray-800 dark:text-white flex items-center justify-center overflow-hidden"
     >
       <img
-        src="/Portfolio/public/banner.jpg" 
+        src="/Portfolio/banner.jpg" 
         alt="Banner"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <div className="absolute bottom-[1%] flex items-center justify-center w-full z-20">
           <img
-            src="/Portfolio/public/profilepic.jpg" 
+            src="/Portfolio/profilepic.jpg" 
             alt="Profile"
             className="w-42 h-40 rounded-full border-2 border-white shadow-lg"
           />
