@@ -1,0 +1,55 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+:root {
+  --primary-bg-light: #f5f5f5; 
+  --secondary-bg-light: #ffffff; 
+  --primary-text-light: #333333; 
+  --secondary-text-light: #666666; 
+  --accent-color-light: #007bff; 
+  --hover-color-light: #0056b3; 
+}
+
+.dark {
+  --primary-bg-dark: #1a202c; 
+  --secondary-bg-dark: #2d3748; 
+  --primary-text-dark: #e2e8f0; 
+  --secondary-text-dark: #edf2f7; 
+  --accent-color-dark: #4a90e2; 
+  --hover-color-dark: #357abd; 
+}
+
+
+body {
+  background-color: var(--primary-bg-light);
+  color: var(--primary-text-light);
+}
+
+a {
+  color: var(--accent-color-light);
+}
+
+a:hover {
+  color: var(--hover-color-light);
+}
+
+
+.dark body {
+  background-color: var(--primary-bg-dark);
+  color: var(--primary-text-dark);
+}
+
+.dark a {
+  color: var(--accent-color-dark);
+}
+
+.dark a:hover {
+  color: var(--hover-color-dark);
+}
+
+.profile-img-container {
+  bottom: -10%; 
+  transform: translateY(50%); 
+}
