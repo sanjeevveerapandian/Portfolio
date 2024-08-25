@@ -15,6 +15,7 @@ const Resume = () => {
             <li><strong>Responsive Design:</strong> Capable of designing web applications that provide a seamless experience across various devices and screen sizes.</li>
             <li><strong>React Native Development:</strong> Experience in building cross-platform mobile applications using React Native, delivering native performance and look-and-feel.</li>
             <li><strong>Version Control:</strong> Proficient in using Git for version control and collaboration in development projects.</li>
+            <li><strong>Python Programming:</strong> Proficient in Python for scripting, automation, and developing backend applications.</li>
           </ul>
         </div>
 
@@ -71,7 +72,7 @@ const Resume = () => {
           href="/Portfolio/Resume_Sanjeev.pdf" 
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-primary text-black px-6 py-3 rounded-md shadow-md hover:bg-secondary transition duration-300 inline-block mr-4"
+          className="bg-primary text-black px-6 py-3 rounded-md shadow-md hover:bg-secondary transition duration-300 inline-block mb-4 md:mb-0 md:mr-4"
           style={{color:'black'}}
         >
           View Resume

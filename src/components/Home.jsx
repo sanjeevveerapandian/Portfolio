@@ -21,7 +21,7 @@ const Home = () => {
           <img
             src="/Portfolio/public/profilepic.jpg" 
             alt="Profile"
-            className="w-42 h-40 rounded-full border-4 border-white shadow-lg"
+            className="w-42 h-40 rounded-full border-2 border-white shadow-lg"
           />
         </div>
       </div>
