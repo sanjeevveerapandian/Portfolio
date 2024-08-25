@@ -66,14 +66,24 @@ const Resume = () => {
         </div>
       </div>
       <div className="mt-8 text-center">
+        {/* View Resume Button */}
         <a
-          href="/Resume_Sanjeev.pdf" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="bg-primary text-black px-6 py-3 rounded-md shadow-md hover:bg-secondary transition duration-300"
+          href="/Portfolio/Resume_Sanjeev.pdf" // Include the base path here
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-primary text-black px-6 py-3 rounded-md shadow-md hover:bg-secondary transition duration-300 inline-block mr-4"
           style={{color:'black'}}
         >
           View Resume
+        </a>
+        {/* Download Resume Button */}
+        <a
+          href="/Portfolio/Resume_Sanjeev.pdf" // Include the base path here
+          download
+          className="bg-primary text-black px-6 py-3 rounded-md shadow-md hover:bg-secondary transition duration-300 inline-block"
+          style={{color:'black'}}
+        >
+          Download Resume
         </a>
       </div>
     </section>

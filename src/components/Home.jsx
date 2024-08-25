@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Home = () => {
   return (
@@ -7,7 +7,7 @@ const Home = () => {
       className="relative h-[50vh] bg-background text-secondary dark:bg-gray-800 dark:text-white flex items-center justify-center overflow-hidden"
     >
       <img
-        src="/public/banner.jpg" 
+        src="/Portfolio/public/banner.jpg" // Include the base path here
         alt="Banner"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <div className="absolute bottom-[1%] flex items-center justify-center w-full z-20">
           <img
-            src="/public/profilepic.jpg"
+            src="/Portfolio/public/profilepic.jpg" // Include the base path here
             alt="Profile"
             className="w-42 h-40 rounded-full border-4 border-white shadow-lg"
           />
